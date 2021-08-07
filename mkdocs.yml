@@ -1,8 +1,9 @@
 site_name: Hutch Bot Docs
-site_url: https://marzaelise.github.io/hutch-bot-docs
-# site_url: http://127.0.0.1:8000
-site_description : Documentation for the discord bot Hutch Bot
+# site_url: https://marzaelise.github.io/hutch-bot-docs
+site_url: http://127.0.0.1:8000
+site_description : Official documentation for Hutch Bot
 site_author : Marcus
+copyright: Marcus
 
 repo_url: https://github.com/MarzaElise/Hutch-Bot/
 repo_name: Hutch Bot
@@ -22,6 +23,9 @@ theme:
     palette:
         primary: red
         scheme: slate
+    icon:
+        # logo: octicons/repo-24 # a repo pic to represent docs --------------| Me Making Decisicions
+        logo: octicons/rocket-24 # or a nice rocket pic ----------------------| be like
 
 plugins:
     - search
@@ -39,8 +43,8 @@ nav:
             - Auto Moderation: features/auto-mod.md
         - Commands:
             - Fun: commands/fun.md
-            - Miscellaneous: commands/misc.md
             - Moderation: commands/moderation.md
+            - Miscellaneous: commands/misc.md
             - Developer: commands/dev.md
         - Extra:
             - Support: support.md
@@ -48,8 +52,8 @@ nav:
             - Invite: invite.md
     - Commands:
         - Fun: commands/fun.md
-        - Miscellaneous: commands/misc.md
         - Moderation: commands/moderation.md
+        - Miscellaneous: commands/misc.md
         - Developer: commands/dev.md
     - Upcoming: 
         - upcoming/index.md
@@ -70,5 +74,11 @@ markdown_extensions:
     - abbr
     - def_list
 
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
     - toc:
         permalink: true
+
+extra:
+  homepage: https://example.com

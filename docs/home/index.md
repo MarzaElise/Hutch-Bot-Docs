@@ -24,6 +24,7 @@ Hutch Bot is filled with awesome automod system and many fun commands and essent
     Even though most commands say No Permissions required, its common sense that most commands need **`send messages`** and **`embed links`** permission to work
 
 - Arguments
+
     1. `[argument]`
         - An argument surrounded with square brackets denote the argument as **`Optional`**
     2. `<argument>`
@@ -65,7 +66,7 @@ Overview of all the commands in this category:
 
 ### [Developer Commands](../commands/misc.md)
 
-Developer commands that only the [bot owner](https://discord.com/users/754557382708822137) can use.
+Compilation of commands that are mainly related to the bot. Some are restricted to [bot owner](https://discord.com/users/754557382708822137)
 
 [![Screenshot of Dev category](https://cdn.discordapp.com/attachments/845739412867514442/864855056770924544/unknown.png)](https://discord.gg/NVHJcGdWBC)
 

@@ -1,4 +1,6 @@
-# Fun
+# Fun Commands
+
+Some commands for you to enjoy and spend your time happily
 
 ## Binary
 
