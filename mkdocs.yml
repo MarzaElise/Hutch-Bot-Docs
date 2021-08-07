@@ -1,0 +1,82 @@
+site_name: Hutch Bot Docs
+# site_url: https://marzaelise.github.io/hutch-bot-docs
+site_url: http://127.0.0.1:8000
+site_description : Documentation for the discord bot Hutch Bot
+site_author : Marcus
+
+repo_url: https://github.com/MarzaElise/Hutch-Bot/
+repo_name: Hutch Bot
+
+theme:
+    name: material
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+        - python
+    features:
+        - navigation.instant
+        - navigation.tabs
+        # - navigation.sections
+        - navigation.expand
+        - navigation.top
+    palette:
+        primary: red
+        scheme: slate
+
+plugins:
+    - search
+    - redirects:
+        redirect_maps:
+            'index.md': 'home/index.md'
+            'support.md': 'https://discord.gg/NVHJcGdWBC'
+            'invite.md': 'https://dsc.gg/hutch-bot'
+            'contact.md': 'https://discord.com/users/754557382708822137'
+
+nav:
+    - Home:
+        - Welcome: home/index.md
+        - Features:
+            - Auto Moderation: features/auto-mod.md
+        - Commands:
+            - Fun: commands/fun.md
+            - Miscellaneous: commands/misc.md
+            - Moderation: commands/moderation.md
+            - Developer: commands/dev.md
+        - Extra:
+            - Support: support.md
+            - Upcoming: upcoming/index.md
+            - Invite: invite.md
+    - Commands:
+        - Fun: commands/fun.md
+        - Miscellaneous: commands/misc.md
+        - Moderation: commands/moderation.md
+        - Developer: commands/dev.md
+    - Upcoming: 
+        - upcoming/index.md
+    - Support:
+        - support.md
+    - Invite:
+        - invite.md
+    - Contact: 
+        - contact.md
+
+markdown_extensions:
+
+    - meta
+    - admonition
+    - pymdownx.superfences
+    - pymdownx.details
+    - pymdownx.snippets
+    - abbr
+    - def_list
+
+    - toc:
+        permalink: true
+
+# extra:
+#     generator: false # need premium :(
+#     social: # social needs premium
+#         - icon: fontawesome/brands/github
+#           link: https://github.com/MarzaElise
+#           name: Github
