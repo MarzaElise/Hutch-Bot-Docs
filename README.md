@@ -1,7 +1,10 @@
 # Hutch Bot Docs
 
-- This is the source code of Hutch Bot's Documentation which u can view by clicking [here](https://marzaelise.github.io/hutch-bot-docs).
+- This is the source code of Hutch Bot's Documentation which is released in both [github pages](https://pages.github.com/) and in [readthedocs.org](https://readthedocs.org/)
 
-- This will soon be available on readthedocs.io too.
+    - [Github Page](https://marzaelise.github.io/Hutch-Bot-Docs/)
 
-- This documentation was made using [mkdocs](https://www.mkdocs.org/) with the [material theme](https://squidfunk.github.io/mkdocs-material/) for mkdocs
+    - [Read The Docs](https://hutch-bot.readthedocs.io/en/latest/home/)
+
+
+- This documentation was made with [mkdocs](https://www.mkdocs.org/) using the [material theme](https://squidfunk.github.io/mkdocs-material/) for mkdocs
