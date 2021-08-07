@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hutch Bot Docs
 
 - This is the source code of Hutch Bot's Documentation which u can view by clicking [here](https://marzaelise.github.io/hutch-bot-docs).
