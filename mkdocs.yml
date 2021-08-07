@@ -1,6 +1,6 @@
 site_name: Hutch Bot Docs
-# site_url: https://marzaelise.github.io/hutch-bot-docs
-site_url: http://127.0.0.1:8000
+site_url: https://marzaelise.github.io/hutch-bot-docs
+# site_url: http://127.0.0.1:8000
 site_description : Documentation for the discord bot Hutch Bot
 site_author : Marcus
 
@@ -17,7 +17,6 @@ theme:
     features:
         - navigation.instant
         - navigation.tabs
-        # - navigation.sections
         - navigation.expand
         - navigation.top
     palette:
@@ -73,10 +72,3 @@ markdown_extensions:
 
     - toc:
         permalink: true
-
-# extra:
-#     generator: false # need premium :(
-#     social: # social needs premium
-#         - icon: fontawesome/brands/github
-#           link: https://github.com/MarzaElise
-#           name: Github
