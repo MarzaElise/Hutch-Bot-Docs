@@ -1,3 +1,7 @@
+---
+disqus: ""
+---
+
 # Moderation Commands
 
 Essential common commands for moderation purposes

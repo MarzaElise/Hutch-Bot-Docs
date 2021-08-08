@@ -1,9 +1,9 @@
 site_name: Hutch Bot Docs
 # site_url: https://marzaelise.github.io/hutch-bot-docs
-site_url: http://127.0.0.1:8000
-site_description : Official documentation for Hutch Bot
+site_url: http://127.0.0.1:8000 # for development
+site_description : 'Official documentation for Hutch Bot'
 site_author : Marcus
-copyright: Marcus
+copyright: 'Copyright &copy; 2021 - present Marcus'
 
 repo_url: https://github.com/MarzaElise/Hutch-Bot/
 repo_name: Hutch Bot
@@ -24,17 +24,17 @@ theme:
         primary: red
         scheme: slate
     icon:
-        # logo: octicons/repo-24 # a repo pic to represent docs --------------| Me Making Decisicions
-        logo: octicons/rocket-24 # or a nice rocket pic ----------------------| be like
-
+        # logo: octicons/repo-24 # a repo pic to represent docs =============|    Took 50m to 
+        logo: octicons/rocket-24 # or a nice rocket pic =====================| -> choose which
+#                                                                            |    one to use
 plugins:
     - search
     - redirects:
         redirect_maps:
             'index.md': 'home/index.md'
-            'support.md': 'https://discord.gg/NVHJcGdWBC'
-            'invite.md': 'https://dsc.gg/hutch-bot'
-            'contact.md': 'https://discord.com/users/754557382708822137'
+            'redirects/support.md': 'https://discord.gg/NVHJcGdWBC'
+            'redirects/invite.md': 'https://dsc.gg/hutch-bot'
+            'redirects/contact.md': 'https://discord.com/users/754557382708822137'
 
 nav:
     - Home:
@@ -47,9 +47,10 @@ nav:
             - Miscellaneous: commands/misc.md
             - Developer: commands/dev.md
         - Extra:
-            - Support: support.md
+            - Support: redirects/support.md
             - Upcoming: upcoming/index.md
-            - Invite: invite.md
+            - Invite: redirects/invite.md
+            - Feedback: feedback/index.md
     - Commands:
         - Fun: commands/fun.md
         - Moderation: commands/moderation.md
@@ -58,11 +59,13 @@ nav:
     - Upcoming: 
         - upcoming/index.md
     - Support:
-        - support.md
+        - redirects/support.md
     - Invite:
-        - invite.md
+        - redirects/invite.md
     - Contact: 
-        - contact.md
+        - redirects/contact.md
+    - Feedback:
+        - Feedback and Comments: feedback/index.md
 
 markdown_extensions:
 
@@ -74,11 +77,11 @@ markdown_extensions:
     - abbr
     - def_list
 
-    - pymdownx.emoji:
-        emoji_index: !!python/name:materialx.emoji.twemoji
-        emoji_generator: !!python/name:materialx.emoji.to_svg
+    # - pymdownx.emoji: ------------------------------------------------|
+    #     emoji_index: !!python/name:materialx.emoji.twemoji -----------| => I dont think im using any of these...
+    #     emoji_generator: !!python/name:materialx.emoji.to_svg --------|
     - toc:
         permalink: true
 
 extra:
-  homepage: https://example.com
+    disqus: !ENV [DISQUS_SHORTNAME, 'hutch-']

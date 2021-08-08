@@ -1,8 +1,6 @@
-<!-- ---
-hide:
-  - navigation
-  - toc
---- -->
+---
+disqus: ""
+---
 
 # Welcome
 
