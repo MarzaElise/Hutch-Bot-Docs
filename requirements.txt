@@ -2,6 +2,6 @@ mkdocs
 mkdocs-material
 mkdocs-material-extensions
 mkdocs-redirects
-pymdown-extensions
 mkdocs-macros-plugin
-git-revision-date
+mkdocs-git-revision-date-plugin
+pymdown-extensions
