@@ -1,7 +1,3 @@
----
-disqus: ""
----
-
 # Auto Moderation
 
 Hutch Bot currently contains two main automoderation sytems.

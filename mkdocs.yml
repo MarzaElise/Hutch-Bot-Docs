@@ -1,5 +1,5 @@
 site_name: Hutch Bot Docs
-# site_url: https://marzaelise.github.io/hutch-bot-docs
+# site_url: https://hutch-bot.readthedocs.io/en/latest
 site_url: http://127.0.0.1:8000 # for development
 site_description : 'Official documentation for Hutch Bot'
 site_author : Marcus
@@ -24,10 +24,12 @@ theme:
         primary: red
         scheme: slate
     icon:
+        repo: fontawesome/brands/github
         # logo: octicons/repo-24 # a repo pic to represent docs =============|    Took 50m to 
         logo: octicons/rocket-24 # or a nice rocket pic =====================| -> choose which
 #                                                                            |    one to use
 plugins:
+    - git-revision-date
     - search
     - redirects:
         redirect_maps:
@@ -50,7 +52,7 @@ nav:
             - Support: redirects/support.md
             - Upcoming: upcoming/index.md
             - Invite: redirects/invite.md
-            - Feedback: feedback/index.md
+            # - Feedback: feedback/index.md epic disqus fail
     - Commands:
         - Fun: commands/fun.md
         - Moderation: commands/moderation.md
@@ -64,8 +66,8 @@ nav:
         - redirects/invite.md
     - Contact: 
         - redirects/contact.md
-    - Feedback:
-        - Feedback and Comments: feedback/index.md
+    # - Feedback:                                    --- | Disqus
+    #     - Feedback and Comments: feedback/index.md --- | failed
 
 markdown_extensions:
 
@@ -83,5 +85,9 @@ markdown_extensions:
     - toc:
         permalink: true
 
-extra:
-    disqus: !ENV [DISQUS_SHORTNAME, 'hutch-']
+# extra:
+#     disqus: !ENV [DISQUS_SHORTNAME, 'hutch-bot']
+#     shortname:
+#         - value: !ENV [DISQUS_SHORTNAME, 'hutch-bot']
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+#  DISQUS FKING FAILED 

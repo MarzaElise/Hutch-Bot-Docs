@@ -3,3 +3,5 @@ mkdocs-material
 mkdocs-material-extensions
 mkdocs-redirects
 pymdown-extensions
+mkdocs-macros-plugin
+git-revision-date

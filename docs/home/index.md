@@ -1,7 +1,3 @@
----
-disqus: ""
----
-
 # Welcome
 
 <!-- badges :pogchamp: -->
@@ -81,7 +77,6 @@ Some extra information about stuff
 - Both Hutch Bot and this docs were made by [Marcus | Bot Dev#4438](https://discord.com/users/754557382708822137)
 
 - Wild dogs and hyenas eat their prey alive
-
 
 !!! note "Important Note"
 
