@@ -62,7 +62,7 @@ Essential common commands for moderation purposes
 - Description: Unban a previously banned member
 - Aliases: None
 - Required Permissions:
-    - **`Unban Members`** -> Discord's requirement to unban :shrug:
+    - **`Unban Members`** -> Discord's requirement to unban ¯\_(ツ)_/¯
 - Cooldown: **`0s`**
 
 ## Whois

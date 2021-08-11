@@ -52,7 +52,7 @@ nav:
             - Support: redirects/support.md
             - Upcoming: upcoming/index.md
             - Invite: redirects/invite.md
-            # - Feedback: feedback/index.md epic disqus fail
+            - Contact: redirects/contact.md
     - Commands:
         - Fun: commands/fun.md
         - Moderation: commands/moderation.md
@@ -66,8 +66,6 @@ nav:
         - redirects/invite.md
     - Contact: 
         - redirects/contact.md
-    # - Feedback:                                    --- | Disqus
-    #     - Feedback and Comments: feedback/index.md --- | failed
 
 markdown_extensions:
 
@@ -84,10 +82,3 @@ markdown_extensions:
         emoji_generator: !!python/name:materialx.emoji.to_svg
     - toc:
         permalink: true
-
-# extra:
-#     disqus: !ENV [DISQUS_SHORTNAME, 'hutch-bot']
-#     shortname:
-#         - value: !ENV [DISQUS_SHORTNAME, 'hutch-bot']
-# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-#  DISQUS FKING FAILED 
