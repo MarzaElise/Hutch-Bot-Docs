@@ -14,7 +14,7 @@ click [here](https://dsc.gg/hutch-bot)
 
 Hutch Bot is filled with awesome automod system and many fun commands and essential moderation commands too!
 
-!!! info
+!!! tip
     Even though most commands say No Permissions required, its common sense that most commands need **`send messages`** and **`embed links`** permission to work
 
 - Arguments
