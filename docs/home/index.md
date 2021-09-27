@@ -81,4 +81,3 @@ Some extra information about stuff
 !!! note "Important Note"
 
     Other categories will be added one by one since this is still under development
-    <!-- <h2> Other categories will be added one by one since this is still under development </h2> -->

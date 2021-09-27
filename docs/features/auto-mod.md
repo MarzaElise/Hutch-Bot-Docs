@@ -18,4 +18,4 @@ Hutch Bot currently contains two main automoderation sytems.
 
         - Bypassing permissions is also against the discord's ToS. This will kick the user instead of banning them since this might get exploited
 
-        - Currently, this feature cannot be disabled per server. 
+        - Currently, this feature cannot be disabled per server.

@@ -85,3 +85,32 @@ Commands that are mainly related to the bot. Some can only be used by the [bot o
 - Cooldown: **`0s`**
 !!! info
     This command is restricted to [bot owner](https://discord.com/users/754557382708822137)
+
+## Report
+
+- Invocation : **`h!report [message]`**
+- Description: Use this to contact bot owner to report bugs / suggest stuff if you dont want to join support server
+- Aliases: None
+- Required Permissions:
+    - None
+- Cooldown: **`12h`**
+
+## Source
+
+- Invocation : **`h!source <command>`**
+- Description: View the source of the given command
+- Aliases: None
+- Required Permissions:
+    - None
+- Cooldown: **`10s`**
+
+## Blacklist
+
+- Invocation : **`h!blacklist <member> [reason]`**
+- Description: Blacklist a member from using the bot. Currently not implemented
+- Aliases: None
+- Required Permissions:
+    - None
+- Cooldown: **`0s`**
+!!! info
+    This command is restricted to [bot owner](https://discord.com/users/754557382708822137)

@@ -105,3 +105,21 @@ Some random commands that I thought of. I really dont have an explanation why so
 - Required Permissions:
     - None
 - Cooldown: **`5s`**
+
+## Redo
+
+- Invocation : **`h!redo`**
+- Description: Redo a previous command. Reply to a message sent by you to redo it as a command
+- Aliases: **`redo`** **`re`** **`reinvoke`**
+- Required Permissions:
+    - None
+- Cooldown: **`0s`**
+
+## Delete
+
+- Invocation : **`h!delete`**
+- Description: Reply to a message sent by the bot to delete it, useful when the bot sends something unwanted
+- Aliases: **`delete`** **`del`**
+- Required Permissions:
+    - None
+- Cooldown: **`10s`**
