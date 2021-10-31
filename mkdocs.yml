@@ -50,7 +50,7 @@ nav:
             - Developer: commands/dev.md
         - Extra:
             - Support: redirects/support.md
-            - Upcoming: upcoming/index.md
+            - What's New: whats-new/index.md
             - Invite: redirects/invite.md
             - Contact: redirects/contact.md
     - Commands:
@@ -58,8 +58,8 @@ nav:
         - Moderation: commands/moderation.md
         - Miscellaneous: commands/misc.md
         - Developer: commands/dev.md
-    - Upcoming: 
-        - upcoming/index.md
+    - What's New: 
+        - whats-new/index.md
     - Support:
         - redirects/support.md
     - Invite:
