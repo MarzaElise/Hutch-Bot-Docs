@@ -123,3 +123,12 @@ Some random commands that I thought of. I really dont have an explanation why so
 - Required Permissions:
     - None
 - Cooldown: **`10s`**
+
+## RTFM
+
+- Invocation : **`h!rtfm <docs> [term]`**
+- Description: Search for the given term in the given documentation
+- Aliases: **`rtfd`** **`rtfm`** **`docs`**
+- Required Permissions:
+    - None
+- Cooldown: **`0s`**
