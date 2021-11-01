@@ -51,3 +51,14 @@ Some of the features added/removed/updated on the last update of the bot
 ## Extra
 
 *Extra information about the latest release*
+
+- Hutch Bot now uses the [`diskord`](https://pypi.org/project/diskord) module.
+- Something I said i'll do in the previous version, moving to databases, will be done in upcoming versions
+- I have yet to implement slash commands, context menus and buttons
+- Bot version updated to **3.6.0**
+- Source code can be viewed [`here`](https://github.com/MarzaElise/Hutch-Bot)
+- Caching
+
+    - I have decided to cache some expensive stuff.
+    - From now, the bot wont create useless invites when the [`h!servers`](./../commands/misc.md#server) command is used
+    - Hutch now also caches the reddit posts returned in the [`h!reddit`](./../commands/fun.md#reddit) command
