@@ -92,15 +92,6 @@ Some commands for you to enjoy and spend your time happily
     - **`Permission_name`** - Reason
 - Cooldown: **`5s`** per **`member`**
 
-## NSFW
-
-- Invocation : **`h!nsfw`**
-- Description: yes, NSFW. requires a channel marked as NSFW to work
-- Aliases: None
-- Required Stuff:
-    - **`NSFW channel`** - to send the nsfw content
-- Cooldown: **`5s`** per **`member`**
-
 ## Poll
 
 - Invocation : **`h!poll <title> [options...]`**
