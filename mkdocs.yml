@@ -1,6 +1,6 @@
 site_name: Hutch Bot Docs
-# site_url: https://hutch-bot.readthedocs.io/en/latest
-site_url: http://127.0.0.1:8000 # for development
+site_url: https://hutch-bot.readthedocs.io/en/latest
+# site_url: http://127.0.0.1:8000 # for development
 site_description : 'Official documentation for Hutch Bot'
 site_author : Marcus
 copyright: 'Copyright &copy; 2021 - present Marcus'
